@@ -67,8 +67,28 @@ Write a method that returns the key with the biggest integer value in a given di
 ### 14. Rectangular array
 Write a program that creates and prints a 5 by 5 two-dimensional array and initialize index [2,2] to 1 and all other indices to 0.
 
+```c#
+carrie@ubuntu:~/0x02/14-rectangular_array$ ls
+14-rectangular_array.cs  14-rectangular_array.csproj  bin  obj
+carrie@ubuntu:~/0x02/14-rectangular_array$ dotnet run | cat -e
+0 0 0 0 0$
+0 0 0 0 0$
+0 0 1 0 0$
+0 0 0 0 0$
+0 0 0 0 0$
+```
 ### 15. Matrix squared 
 Write a method that computes the square value of all integers of a matrix.
+
+```c#
+carrie@ubuntu:~/0x02/15-square_matrix$ ls
+15-main.cs           15-square_matrix.csproj  obj
+15-square_matrix.cs  bin
+carrie@ubuntu:~/0x02/15-square_matrix$ dotnet run
+0 1 4
+9 16 25
+36 49 64
+```
 
 ### 16. Jaggay array 
 Write a program that creates and prints a jagged array containing 3 arrays.
