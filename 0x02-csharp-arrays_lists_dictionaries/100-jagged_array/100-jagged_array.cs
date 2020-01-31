@@ -8,7 +8,7 @@ class GFG {
         int[][] jagged_arr = new int[3][]; 
   
         jagged_arr[0] = new int[] {0, 1, 2, 3}; 
-        jagged_arr[1] = new int[] {0, 1, 2, 4, 5, 6}; 
+        jagged_arr[1] = new int[] {0, 1, 2, 3, 4, 5, 6}; 
         jagged_arr[2] = new int[] {0, 1};  
 
         int x = 0;
