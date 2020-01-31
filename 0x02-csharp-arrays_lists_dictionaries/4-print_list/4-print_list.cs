@@ -16,11 +16,10 @@ class List
     {
         ilist.Add(x);
         if (x != 0)
-
         Console.Write(" ");
         Console.Write(x);
     }
-    Console.WriteLine(" ");
+    Console.WriteLine("");
     return ilist;
     }
 }
