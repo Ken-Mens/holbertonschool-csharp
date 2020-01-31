@@ -80,8 +80,6 @@ class Program
         Dictionary.PrintSorted(myDict);
     }
 }
-
-```
 carrie@ubuntu:~/0x02/12-print_sorted_dictionary$ ls
 12-main.cs                         bin
 12-print_sorted_dictionary.cs      obj
