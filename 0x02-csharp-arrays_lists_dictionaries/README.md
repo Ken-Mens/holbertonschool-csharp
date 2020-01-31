@@ -60,9 +60,73 @@ Write a method that returns a new dictionary with all values multiplied by 2.
 
 ### 12. Print sorted dictionary 
 Write a method that prints a dictionary by ordered keys.
+```
+carrie@ubuntu:~/0x02/12-print_sorted_dictionary$ cat 12-main.cs 
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Dictionary<string, string> myDict = new Dictionary<string, string>();
+
+        myDict.Add("language", "C");
+        myDict.Add("track", "low level");
+        myDict.Add("school", "Holberton");
+        myDict.Add("address", "972 Mission St.");
+        myDict.Add("city", "San Francisco");
+
+        Dictionary.PrintSorted(myDict);
+    }
+}
+```
+carrie@ubuntu:~/0x02/12-print_sorted_dictionary$ ls
+12-main.cs                         bin
+12-print_sorted_dictionary.cs      obj
+12-print_sorted_dictionary.csproj
+carrie@ubuntu:~/0x02/12-print_sorted_dictionary$ dotnet run
+address: 972 Mission St.
+city: San Francisco
+language: C
+school: Holberton
+track: low level
+```
 
 ### 13. Best score
 Write a method that returns the key with the biggest integer value in a given dictionary.
+```
+carrie@ubuntu:~/0x02/13-best_score$ cat 13-main.cs 
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Dictionary<string, int> myDict = new Dictionary<string, int>();
+
+        myDict.Add("John", 12);
+        myDict.Add("Alex", 8);
+        myDict.Add("Bob", 14);
+        myDict.Add("Molly", 16);
+        myDict.Add("Mary", 14);
+
+        Console.WriteLine("Best Score: {0}", Dictionary.BestScore(myDict));
+    }
+}
+carrie@ubuntu:~/0x02/13-best_score$ 
+```
+
+```c#
+carrie@ubuntu:~/0x02/13-best_score$ ls
+13-best_score.cs  13-best_score.csproj  13-main.cs  bin  obj
+carrie@ubuntu:~/0x02/13-best_score$ dotnet run
+Best Score: Molly
+carrie@ubuntu:~/0x02/13-best_score$ 
+```
+
+
 
 ### 14. Rectangular array
 Write a program that creates and prints a 5 by 5 two-dimensional array and initialize index [2,2] to 1 and all other indices to 0.
