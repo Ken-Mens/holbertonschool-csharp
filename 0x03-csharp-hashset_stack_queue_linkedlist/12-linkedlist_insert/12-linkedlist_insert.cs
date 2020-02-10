@@ -6,6 +6,11 @@ class LList
     {
         LinkedListNode<int> newNode = new LinkedListNode<int>(n);
         LinkedListNode<int> Nll = myLList.First;
+         if (Nll == null)
+        {
+            myLList.AddFirst(newNode);
+            return (newNode);
+        }
         while (Nll.Next != null)
         {
             if (Nll.Next.Value >= n)
