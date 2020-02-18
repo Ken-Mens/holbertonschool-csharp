@@ -6,7 +6,7 @@ namespace MyMath.Tests
     public class OperationsTests
     {
         [Test]
-        public void Add_Positive()
+        public void Adding_Positives()
         {
             int a = 66;
             int b = 15;
@@ -14,7 +14,7 @@ namespace MyMath.Tests
             Assert.AreEqual(a + b, c);
         }
         [Test]
-        public void Add_Negative_Positive()
+        public void Adding_Negative_Positive()
         {
             int a = -9;
             int b = 28;
@@ -22,10 +22,19 @@ namespace MyMath.Tests
             Assert.AreEqual(a + b, c);
         }
         [Test]
-        public void Add_Negative()
+        public void Adding_Negatives()
         {
             int a = -25;
             int b = -50;
+            int c = MyMath.Operations.Add(a, b);
+            Assert.AreEqual(a + b, c);
+        }
+
+        [Test]
+        public void Adding_Zero()
+        {
+            int a = 0;
+            int b = 5;
             int c = MyMath.Operations.Add(a, b);
             Assert.AreEqual(a + b, c);
         }
