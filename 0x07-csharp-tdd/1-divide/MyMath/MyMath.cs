@@ -20,11 +20,9 @@ namespace MyMath
             int m_Height = matrix.GetLength(0);
             int m_Width = matrix.GetLength(1);
             int[,] newM = new int[m_Height, m_Width];
-            int x = 0;
-            for (; x < m_Height; x++)
+            for (int x = 0; x < m_Height; x++)
             {
-                int y = 0;
-                for (; y < m_Width; y++)
+                for (int y = 0; y < m_Width; y++)
                 {
                     newM[x, y] = matrix[x,y] / num;
                 }
