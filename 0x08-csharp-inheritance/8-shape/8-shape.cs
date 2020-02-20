@@ -56,6 +56,7 @@ class Rectangle : Shape
 		return height * width;
 	}
 
+    ///<summary>Overrides ToString method.</summary>
 	public override string ToString()
 	{
 		return String.Format("[Rectangle] {0} / {1}", width, height);
@@ -79,7 +80,7 @@ class Square : Rectangle
 		{
 			if (value < 0)
 			{
-				throw new ArgumentException("Size must be greater than or equal to 0");
+				throw new System.ArgumentException("Size must be greater than or equal to 0");
 			}
 			size = value;
 			Height = value;
