@@ -6,9 +6,8 @@ using System.Collections.Generic;
     {
 
     /// <summary> method that returns true if obj is int</summary>
-  
-
-        public static bool IsOfTypeInt(object obj)
+  	///<returns>T or F</returns>
+    public static bool IsOfTypeInt(object obj)
         {
             return obj is int;
         }
