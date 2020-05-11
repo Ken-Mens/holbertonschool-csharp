@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>0-queue</name>
+    </assembly>
+    <members>
+        <member name="T:Queue`1">
+            <summary>Class that stores a queue of objects of same type.</summary>
+        </member>
+        <member name="M:Queue`1.CheckType">
+            <summary>Returns type stored.</summary>
+            <returns>Type of the T parameter.</returns>
+        </member>
+    </members>
+</doc>

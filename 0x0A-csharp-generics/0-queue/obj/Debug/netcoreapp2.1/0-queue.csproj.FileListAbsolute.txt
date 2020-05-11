@@ -1,0 +1,13 @@
+/Users/kennethmensah/Documents/Holberton/holbertonschool-csharp/holbertonschool-csharp/0x0A-csharp-generics/0-queue/bin/Debug/netcoreapp2.1/0-queue.xml
+/Users/kennethmensah/Documents/Holberton/holbertonschool-csharp/holbertonschool-csharp/0x0A-csharp-generics/0-queue/bin/Debug/netcoreapp2.1/0-queue.deps.json
+/Users/kennethmensah/Documents/Holberton/holbertonschool-csharp/holbertonschool-csharp/0x0A-csharp-generics/0-queue/bin/Debug/netcoreapp2.1/0-queue.runtimeconfig.json
+/Users/kennethmensah/Documents/Holberton/holbertonschool-csharp/holbertonschool-csharp/0x0A-csharp-generics/0-queue/bin/Debug/netcoreapp2.1/0-queue.runtimeconfig.dev.json
+/Users/kennethmensah/Documents/Holberton/holbertonschool-csharp/holbertonschool-csharp/0x0A-csharp-generics/0-queue/bin/Debug/netcoreapp2.1/0-queue.dll
+/Users/kennethmensah/Documents/Holberton/holbertonschool-csharp/holbertonschool-csharp/0x0A-csharp-generics/0-queue/bin/Debug/netcoreapp2.1/0-queue.pdb
+/Users/kennethmensah/Documents/Holberton/holbertonschool-csharp/holbertonschool-csharp/0x0A-csharp-generics/0-queue/obj/Debug/netcoreapp2.1/0-queue.csprojAssemblyReference.cache
+/Users/kennethmensah/Documents/Holberton/holbertonschool-csharp/holbertonschool-csharp/0x0A-csharp-generics/0-queue/obj/Debug/netcoreapp2.1/0-queue.csproj.CoreCompileInputs.cache
+/Users/kennethmensah/Documents/Holberton/holbertonschool-csharp/holbertonschool-csharp/0x0A-csharp-generics/0-queue/obj/Debug/netcoreapp2.1/0-queue.AssemblyInfoInputs.cache
+/Users/kennethmensah/Documents/Holberton/holbertonschool-csharp/holbertonschool-csharp/0x0A-csharp-generics/0-queue/obj/Debug/netcoreapp2.1/0-queue.AssemblyInfo.cs
+/Users/kennethmensah/Documents/Holberton/holbertonschool-csharp/holbertonschool-csharp/0x0A-csharp-generics/0-queue/obj/Debug/netcoreapp2.1/0-queue.dll
+/Users/kennethmensah/Documents/Holberton/holbertonschool-csharp/holbertonschool-csharp/0x0A-csharp-generics/0-queue/obj/Debug/netcoreapp2.1/0-queue.pdb
+/Users/kennethmensah/Documents/Holberton/holbertonschool-csharp/holbertonschool-csharp/0x0A-csharp-generics/0-queue/obj/Debug/netcoreapp2.1/0-queue.genruntimeconfig.cache
