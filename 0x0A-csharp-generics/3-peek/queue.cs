@@ -63,13 +63,14 @@ public int count = 0;
         this.count -= 1;
         return (node.value);
     }
-///<summary>Returns value of first node of queue.</summary>
+///<summary>Returns value of first node of queue.</summary>///
+///<returns>Element first viewed.</returns>
     public T Peek()
     {
         if (this.head == null)
         {
             Console.WriteLine("Queue is empty");
-            return (default(T));
+            return default(T);
         }
         return (this.head.value);
     }
