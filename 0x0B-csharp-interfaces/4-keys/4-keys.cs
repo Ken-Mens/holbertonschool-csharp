@@ -84,10 +84,10 @@ public class Key : Base, ICollectable
 
     /// <summary>Forms a key construct.</summary>
     /// <param name="name">Object's name.</param>
-    /// <param name="collected">Whether the object has been collected or not.</param>
-    public Key(string name="Key", bool collected=false) {
+    /// <param name="isCollected">Whether the object has been collected or not.</param>
+    public Key(string name="Key", bool isCollected=false) {
         this.name = name;
-        this.isCollected = collected;
+        this.isCollected = isCollected;
     }
 
     /// <summary>Picking up the key.</summary>
