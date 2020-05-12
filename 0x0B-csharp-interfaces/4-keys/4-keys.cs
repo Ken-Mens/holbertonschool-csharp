@@ -82,8 +82,8 @@ public class Key : Base, ICollectable
     /// <summary>Determines wheter the key is collected or inherited from.</summary>
     public bool isCollected { get; set; }
 
-    /// <summary>Creates a key with starting values for properties.</summary>
-    /// <param name="name">The object's name.</param>
+    /// <summary>Forms a key construct.</summary>
+    /// <param name="name">Object's name.</param>
     /// <param name="collected">Whether the object has been collected or not.</param>
     public Key(string name="Key", bool collected=false) {
         this.name = name;
