@@ -4,11 +4,11 @@
 public enum Modifier
 {
     ///<summary>Weak modifier</summary>
-    Weak = 1,
+    Weak,
     ///<summary>Base modifier</summary>
-    Base = 2,
+    Base,
     ///<summary>Strongest modifier</summary>
-    Strong = 3
+    Strong
 }
 
 /// <summary>Will apply effect based on tier modifier.</summary>
@@ -72,8 +72,15 @@ public class Player
             this.hp = newHp;
     }
     ///<summary>Will Validate Player hp modifications.</summary>
-      public float ApplyModifier(float baseValue, Modifier modifier) 
-      {
-       return (baseValue * ((float)modifier / 2f));
-      }
+    public float ApplyModifier(float baseValue, Modifier modifier) {
+        switch (modifier) 
+        {
+            case Modifier.Weak:
+                return baseValue * 0.5f;
+            case Modifier.Strong:
+                return baseValue * 1.5f;
+            default:
+                return baseValue;
+        }
+    }
 }
