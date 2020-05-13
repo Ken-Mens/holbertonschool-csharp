@@ -32,16 +32,19 @@ public class Player
     public void TakeDamage(float damage)
     {
         Console.WriteLine($"{this.name} takes {damage} damage!");
-        if (damage <= 0f)
-            this.hp -= damage;
-            this.ValidateHP(this.hp - damage);
+        if (damage < 0f)
+            damage = 0f;
+        float newHp = this.hp - damage;
+        this.ValidateHP(newHp);
     }
     ///<summary>Will calculate Player healing.</summary>
     public void HealDamage(float heal)
     {
         Console.WriteLine($"{this.name} heals {heal} HP!");
-           if (this.hp >= 0)
-            this.ValidateHP(this.hp + heal);
+           if (this.hp > 0)
+            heal = 0f;
+        float newHp = this.hp + heal;
+        this.ValidateHP(newHp);
     }
 
     ///<summary>Sets new value of Player hp.</summary>
