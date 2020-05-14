@@ -94,15 +94,15 @@ public class Player
        return (baseValue * ((float)modifier / 2f));
       }
     ///<summary>Checks status of player.</summary>
-        private void CheckStatus(object sender, CurrentHPArgs ok)
+        private void CheckStatus(object sender, CurrentHPArgs e)
     {
-        if (ok.currentHp == this.maxHp)
+        if (e.currentHp == this.maxHp)
             this.status = $"{this.name} is in perfect health!";
-        else if (ok.currentHp >= (this.maxHp / 2))
+        else if (e.currentHp >= (this.maxHp / 2))
             this.status = $"{this.name} is doing well!";
-        else if (ok.currentHp >= (this.maxHp / 4))
+        else if (e.currentHp >= (this.maxHp / 4))
             this.status = $"{this.name} isn't doing too great...";
-        else if (ok.currentHp > 0)
+        else if (e.currentHp > 0)
             this.status = $"{this.name} needs help!";
         else
             this.status = $"{this.name} is knocked out!";
