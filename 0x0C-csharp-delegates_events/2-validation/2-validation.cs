@@ -38,12 +38,15 @@ public class Player
         this.ValidateHP(newHp);
     }
     ///<summary>Will calculate Player healing.</summary>
-    public void HealDamage(float heal)
-    {
-        Console.WriteLine($"{this.name} heals {heal} HP!");
-           if (this.hp >= 0)
-            this.ValidateHP(this.hp + heal);
-    }
+	public void HealDamage(float heal)
+	{
+		float newHp = this.hp;
+		if (heal < 0f)
+			heal = 0f;
+		Console.WriteLine("{0} heals {1} HP!", this.name, heal);
+		newHp += heal;
+		ValidateHP(newHp);
+	}
 
     ///<summary>Sets new value of Player hp.</summary>
     public void ValidateHP(float newHp)
